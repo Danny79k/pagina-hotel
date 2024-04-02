@@ -1,0 +1,66 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+  a:hover{
+
+    background-color: rgb(27, 27, 27);
+  }
+
+  .tinos-regular {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .tinos-bold {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .tinos-regular-italic {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .tinos-bold-italic {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  .pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-serif-bold {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-serif-regular-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-serif-bold-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .shad{
+
+    -webkit-box-shadow: 0px 116px 80px 0px rgba(0,0,0,0.61);
+    -moz-box-shadow: 0px 116px 80px 0px rgba(0,0,0,0.61);
+    box-shadow: 0px 116px 80px 0px rgba(0,0,0,0.61);
+  }
+  
+  
