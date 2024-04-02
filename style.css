@@ -7,8 +7,10 @@
 body {
 
   background-image: url("hotel.jpg");
-  background-attachment:fixed;
+  background-size:cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 
   a:hover{
@@ -65,7 +67,7 @@ body {
 
   .bg-graysh{
 
-    background-color: gray;
+    background-color: rgb(75, 75, 75);
   }
 
   
