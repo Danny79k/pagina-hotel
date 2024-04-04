@@ -70,4 +70,20 @@ body {
     background-color: rgb(75, 75, 75);
   }
 
+  .bg-gold{
+
+    background-color: #e6c068;
+  }
+
+  .text-gold{
+
+    color: #e6c068;
+  }
+
+  .ms-max {
+
+    margin-left: 220px;
+  }
+
+
   
