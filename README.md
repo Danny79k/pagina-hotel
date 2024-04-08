@@ -1,6 +1,6 @@
 pagina de hotel creada principalmente para proyecto universitario
 
-LICENCIA CREATIVVE COMMONS
+LICENCIA CREATIVE COMMONS
 --------------------------------------------------
 https://creativecommons.org/licenses/by/4.0/
 
