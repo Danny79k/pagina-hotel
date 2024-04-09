@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="img/gym-equipment.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/output.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     rel="stylesheet">
-  <link rel="shortcut icon" href="unnamed.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="imagenes/unnamed.ico" type="image/x-icon">
   <title>NextGen Hotel Tenerife</title>
 </head>
 
@@ -24,7 +24,7 @@
   <header class="container-fluid bg-black pb-1 text-light text-center sticky-top shad word-wrap">
     <div class="d-flex flex-row-reverse">
       <div>
-        <img src="unnamed1.png" class="img-fluid" alt="logo">
+        <img src="imagenes/unnamed1.png" class="img-fluid" alt="logo">
       </div>
       <h1 class="mx-5 pt-serif-bold pt-1 fs-1">NextGen Hotel</h1>
       <div class="d-flex align-items-center">
@@ -61,10 +61,10 @@
             </div>
             <div class="col border-start">
               <p class="text-center tinos-regular">descuento residente (-15%)</p>
-              <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+              <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something">
               <span class="ps-2 tinos-bold">Soy residente canario</span>
             </div>
-            <button class="btn btn-outline-dark mt-4" onclick="vaciarCampos(), spawnAlert()">Reserva ya</button>
+            <button class="btn btn-outline-dark mt-4">Reserva ya</button>
           </div>
         </form>
       </div>
@@ -78,27 +78,27 @@
     </div>
     <section class="row text-warning d-flex justify-content-center text-between bg-black">
       <div class="col-3 text-center m-4">
-        <img class="card-img-top" src="Habitaciones/White_Space.jpg" alt="Card image">
+        <img class="card-img-top" src="imagenes/Habitaciones/7- Deluxe Black (Habitación).png" alt="Card image">
         <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
-          <p class="card-text">Some example text.</p>
-          <a href="#" class="btn btn-primary">See Profile</a>
+          <h4 class="card-title">Deluxe Black</h4>
+          <p class="card-text">-40%</p>
+          <a href="#" class="btn btn-outline-warning">Reserva</a>
         </div>
       </div>
       <div class="col-3 text-center m-4">
-        <img class="card-img-top" src="Habitaciones/Deluxe_Gold.jpg" alt="Card image">
+        <img class="card-img-top" src="imagenes/Habitaciones/9- Deluxe Platinum (Habitación).png" alt="Card image">
         <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
-          <p class="card-text">Some example text.</p>
-          <a href="#" class="btn btn-primary">See Profile</a>
+          <h4 class="card-title">Deluxe Platinum</h4>
+          <p class="card-text">-40%</p>
+          <a href="#" class="btn btn-outline-warning ">Reserva</a>
         </div>
       </div>
       <div class="col-3 text-center m-4">
-        <img class="card-img-top" src="Habitaciones/Mix_Space.jpg" alt="Card image">
+        <img class="card-img-top" src="imagenes/Habitaciones/13- Deluxe Diamond (Habitación).png" alt="Card image">
         <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
-          <p class="card-text">Some example text.</p>
-          <a href="#" class="btn btn-primary">See Profile</a>
+          <h4 class="card-title">Deluxe Diamond</h4>
+          <p class="card-text">-40%</p>
+          <a href="#" class="btn btn-outline-warning ">Reserva</a>
         </div>
       </div>
     </section>
@@ -119,19 +119,15 @@
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
             <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
           </div>
 
           <!-- The slideshow/carousel -->
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="Habitaciones/Deluxe_Platinum.png" alt="Los Angeles" class="d-block" style="width:100%">
+              <img src="imagenes/Habitaciones/1- Dark Space (Habitación).png" alt="Los Angeles" class="d-block" style="width:100%">
             </div>
             <div class="carousel-item">
-              <img src="Habitaciones/Mix_Space.jpg" alt="Chicago" class="d-block" style="width:100%">
-            </div>
-            <div class="carousel-item">
-              <img src="Habitaciones/Deluxe_Gold.jpg" alt="New York" class="d-block" style="width:100%">
+              <img src="imagenes/Habitaciones/2- Dark Space (Baño).jpg" alt="Chicago" class="d-block" style="width:100%">
             </div>
           </div>
 
@@ -144,12 +140,14 @@
           </button>
         </div>
         <div class="text-warning d-flex justify-content-around">
-          <div>
-            <h2>titulo</h2>
-            <p>eyo no me cambien mas cosas :,)</p>
-          </div>
-          <div>
-            <button class="btn btn-outline-warning mt-4">Reservame</button>
+          <div class="d-flex justify-content-between p-2">
+            <div class="p-2 col-7 justify-center d-flex flex-column">
+              <h2 class="pb-3 bg-warning tinos text-black text-center pt-2"><strong>Dark Space</strong></h2>
+              <p class="pt-serif-regular mt-2 p-2 text-justify">Disfruta de tu viaje al mañana en nuestra habitación de 40 metros cuadrados, donde se incluye un baño privado totalmente equipado. Nuestro asistente virtual está disponible en todo momento juega con las gafas de realidad virtual o relajarse en un merecido baño de agua caliente. </p>
+            </div>
+            <div class="col-5 d-flex justify-center">
+              <button class="btn btn-outline-warning m-5 col-8">Reservame</button>
+            </div>
           </div>
         </div>
       </section>
@@ -162,19 +160,15 @@
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
           <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
         </div>
 
         <!-- The slideshow/carousel -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="Habitaciones/Deluxe_Platinum.png" alt="Los Angeles" class="d-block" style="width:100%">
+            <img src="imagenes/Habitaciones/3- White Space (Habitación).jpg" alt="Los Angeles" class="d-block" style="width:100%">
           </div>
           <div class="carousel-item">
-            <img src="Habitaciones/Mix_Space.jpg" alt="Chicago" class="d-block" style="width:100%">
-          </div>
-          <div class="carousel-item">
-            <img src="Habitaciones/Deluxe_Gold.jpg" alt="New York" class="d-block" style="width:100%">
+            <img src="imagenes/Habitaciones/4- White Space (Baño).jpg" alt="Chicago" class="d-block" style="width:100%">
           </div>
         </div>
 
@@ -186,13 +180,13 @@
           <span class="carousel-control-next-icon"></span>
         </button>
       </div>
-      <div class="text-warning d-flex justify-content-around">
-        <div>
-          <h2>titulo</h2>
-          <p>eyo no me cambien mas cosas :,)</p>
+      <div class="text-warning d-flex justify-content-between p-2">
+        <div class="p-2 col-7 justify-center d-flex flex-column">
+          <h2 class="pb-3 bg-warning tinos text-black text-center pt-2"><strong>white Space</strong></h2>
+          <p class="pt-serif-regular mt-2 p-2 text-justify">Nuestra variación en blanco le hará sentirse en armonía. Podrá disfrutar de un baño privado donde se ofrecen todas la comodidad posibles, a su vez en la habitación podrá darse un merecido descanso con las mayores facilidades, sin preocupaciones algunas. </p>
         </div>
-        <div>
-          <button class="btn btn-outline-warning mt-4">Reservame</button>
+        <div class="col-5 d-flex justify-center">
+          <button class="btn btn-outline-warning m-5 col-8">Reservame</button>
         </div>
       </div>
     </section>
@@ -204,19 +198,15 @@
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#demo2" data-bs-slide-to="0" class="active"></button>
           <button type="button" data-bs-target="#demo2" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#demo2" data-bs-slide-to="2"></button>
         </div>
 
         <!-- The slideshow/carousel -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="Habitaciones/Deluxe_Platinum.png" alt="Los Angeles" class="d-block" style="width:100%">
+            <img src="imagenes/Habitaciones/5- Mix Space (Habitación).jpg" alt="Los Angeles" class="d-block" style="width:100%">
           </div>
           <div class="carousel-item">
-            <img src="Habitaciones/Mix_Space.jpg" alt="Chicago" class="d-block" style="width:100%">
-          </div>
-          <div class="carousel-item">
-            <img src="Habitaciones/Deluxe_Gold.jpg" alt="New York" class="d-block" style="width:100%">
+            <img src="imagenes/Habitaciones/6- Mix Space (Baño).jpg" alt="Chicago" class="d-block" style="width:100%">
           </div>
         </div>
 
@@ -228,13 +218,13 @@
           <span class="carousel-control-next-icon"></span>
         </button>
       </div>
-      <div class="text-warning d-flex justify-content-around">
-        <div>
-          <h2>titulo</h2>
-          <p>eyo no me cambien mas cosas :,)</p>
+      <div class="text-warning d-flex justify-content-between p-2">
+        <div class="p-2 col-7 justify-center d-flex flex-column">
+          <h2 class="pb-3 bg-warning tinos text-black text-center pt-2"><strong>Mix Space</strong></h2>
+          <p class="pt-serif-regular mt-2 p-2 text-justify">Disfruta de una estancia futurista con una mezcla de tonos blancos y negros dentro  de 45 metros cuadrados. Nuestros materiales de calidad le aseguran el mayor confort y nuestra tecnología el mayor entretenimiento ¿A qué esperas? </p>
         </div>
-        <div>
-          <button class="btn btn-outline-warning mt-4">Reservame</button>
+        <div class="col-5 d-flex justify-center">
+          <button class="btn btn-outline-warning m-5 col-8">Reservame</button>
         </div>
       </div>
     </section>
@@ -246,19 +236,15 @@
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#demo3" data-bs-slide-to="0" class="active"></button>
           <button type="button" data-bs-target="#demo3" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#demo3" data-bs-slide-to="2"></button>
         </div>
 
         <!-- The slideshow/carousel -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="Habitaciones/Deluxe_Platinum.png" alt="Los Angeles" class="d-block" style="width:100%">
+            <img src="imagenes/Habitaciones/7- Deluxe Black (Habitación).png" alt="Los Angeles" class="d-block" style="width:100%">
           </div>
           <div class="carousel-item">
-            <img src="Habitaciones/Mix_Space.jpg" alt="Chicago" class="d-block" style="width:100%">
-          </div>
-          <div class="carousel-item">
-            <img src="Habitaciones/Deluxe_Gold.jpg" alt="New York" class="d-block" style="width:100%">
+            <img src="imagenes/Habitaciones/8- Deluxe Black (Baño).jpg" alt="Chicago" class="d-block" style="width:100%">
           </div>
         </div>
 
@@ -270,13 +256,13 @@
           <span class="carousel-control-next-icon"></span>
         </button>
       </div>
-      <div class="text-warning d-flex justify-content-around">
-        <div>
-          <h2>titulo</h2>
-          <p>eyo no me cambien mas cosas :,)</p>
+      <div class="text-warning d-flex justify-content-between p-2">
+        <div class="p-2 col-7 justify-center d-flex flex-column">
+          <h2 class="pb-3 bg-warning tinos text-black text-center pt-2"><strong>Deluxe Black</strong></h2>
+          <p class="pt-serif-regular mt-2 p-2 text-justify">Eleva el nivel y disfruta de una experiencia al siguiente nivel en nuestra habitación deluxe. Nuestras variaciones en negro le ofrecen elegancia dentro de los 60 metros cuadrados disponibles. La habitación está totalmente equipada para el mayor confort tecnológico. </p>
         </div>
-        <div>
-          <button class="btn btn-outline-warning mt-4">Reservame</button>
+        <div class="col-5 d-flex justify-center">
+          <button class="btn btn-outline-warning m-5 col-8">Reservame</button>
         </div>
       </div>
     </section>
@@ -288,19 +274,15 @@
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#demo4" data-bs-slide-to="0" class="active"></button>
           <button type="button" data-bs-target="#demo4" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#demo4" data-bs-slide-to="2"></button>
         </div>
 
         <!-- The slideshow/carousel -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="Habitaciones/Deluxe_Platinum.png" alt="Los Angeles" class="d-block" style="width:100%">
+            <img src="imagenes/Habitaciones/9- Deluxe Platinum (Habitación).png" alt="Los Angeles" class="d-block" style="width:100%">
           </div>
           <div class="carousel-item">
-            <img src="Habitaciones/Mix_Space.jpg" alt="Chicago" class="d-block" style="width:100%">
-          </div>
-          <div class="carousel-item">
-            <img src="Habitaciones/Deluxe_Gold.jpg" alt="New York" class="d-block" style="width:100%">
+            <img src="imagenes/Habitaciones/10- Deluxe Platinum (Baño).jpg" alt="Chicago" class="d-block" style="width:100%">
           </div>
         </div>
 
@@ -312,13 +294,13 @@
           <span class="carousel-control-next-icon"></span>
         </button>
       </div>
-      <div class="text-warning d-flex justify-content-around">
-        <div>
-          <h2>titulo</h2>
-          <p>eyo no me cambien mas cosas :,)</p>
+      <div class="text-warning d-flex justify-content-between p-2">
+        <div class="p-2 col-7 justify-center d-flex flex-column">
+          <h2 class="pb-3 bg-warning tinos text-black text-center pt-2"><strong>Deluxe Platinum</strong></h2>
+          <p class="pt-serif-regular mt-2 p-2 text-justify">Nuestro nivel deluxe incluye un mayor equipamiento tecnológico para que su estancia sea inolvidable. En esta habitación deluxe recubierta de un color plateado podrá disfrutar de un baño privado y todo tipo de actividades que ofrecen nuestros sistemas, como puede ser realidad virtual.</p>
         </div>
-        <div>
-          <button class="btn btn-outline-warning mt-4">Reservame</button>
+        <div class="col-5 d-flex justify-center">
+          <button class="btn btn-outline-warning m-5 col-8">Reservame</button>
         </div>
       </div>
     </section>
@@ -330,19 +312,15 @@
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#demo5" data-bs-slide-to="0" class="active"></button>
           <button type="button" data-bs-target="#demo5" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#demo5" data-bs-slide-to="2"></button>
         </div>
 
         <!-- The slideshow/carousel -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="Habitaciones/Deluxe_Platinum.png" alt="Los Angeles" class="d-block" style="width:100%">
+            <img src="imagenes/Habitaciones/11- Deluxe Gold (Habitación).jpg" alt="Los Angeles" class="d-block" style="width:100%">
           </div>
           <div class="carousel-item">
-            <img src="Habitaciones/Mix_Space.jpg" alt="Chicago" class="d-block" style="width:100%">
-          </div>
-          <div class="carousel-item">
-            <img src="Habitaciones/Deluxe_Gold.jpg" alt="New York" class="d-block" style="width:100%">
+            <img src="imagenes/Habitaciones/12- Deluxe Gold (Baño).jpg" alt="Chicago" class="d-block" style="width:100%">
           </div>
         </div>
 
@@ -354,13 +332,13 @@
           <span class="carousel-control-next-icon"></span>
         </button>
       </div>
-      <div class="text-warning d-flex justify-content-around">
-        <div>
-          <h2>titulo</h2>
-          <p>eyo no me cambien mas cosas :,)</p>
+      <div class="text-warning d-flex justify-content-between p-2">
+        <div class="p-2 col-7 justify-center d-flex flex-column">
+          <h2 class="pb-3 bg-warning tinos text-black text-center pt-2"><strong>Deluxe Gold</strong></h2>
+          <p class="pt-serif-regular mt-2 p-2 text-justify">Consideramos que la mejor combinación es el negro y el dorado, luciendo en armonía la elegancia y el lujo. En esta habitación deluxe de 65 metros podrá disfrutar de un baño relajante o de una sesión de descubrimiento de la isla  en realidad virtual¿Te apuntas? </p>
         </div>
-        <div>
-          <button class="btn btn-outline-warning mt-4">Reservame</button>
+        <div class="col-5 d-flex justify-center">
+          <button class="btn btn-outline-warning m-5 col-8">Reservame</button>
         </div>
       </div>
     </section>
@@ -372,19 +350,15 @@
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#demo6" data-bs-slide-to="0" class="active"></button>
           <button type="button" data-bs-target="#demo6" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#demo6" data-bs-slide-to="2"></button>
         </div>
 
         <!-- The slideshow/carousel -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="Habitaciones/Deluxe_Platinum.png" alt="Los Angeles" class="d-block" style="width:100%">
+            <img src="imagenes/Habitaciones/13- Deluxe Diamond (Habitación).png" alt="Los Angeles" class="d-block" style="width:100%">
           </div>
           <div class="carousel-item">
-            <img src="Habitaciones/Mix_Space.jpg" alt="Chicago" class="d-block" style="width:100%">
-          </div>
-          <div class="carousel-item">
-            <img src="Habitaciones/Deluxe_Gold.jpg" alt="New York" class="d-block" style="width:100%">
+            <img src="imagenes/Habitaciones/14- Deluxe Diamond (Baño).jpg" alt="Chicago" class="d-block" style="width:100%">
           </div>
         </div>
 
@@ -396,13 +370,13 @@
           <span class="carousel-control-next-icon"></span>
         </button>
       </div>
-      <div class="text-warning d-flex justify-content-around">
-        <div>
-          <h2>titulo</h2>
-          <p>eyo no me cambien mas cosas :,)</p>
+      <div class="text-warning d-flex justify-content-between p-2">
+        <div class="p-2 col-7 justify-center d-flex flex-column">
+          <h2 class="pb-3 bg-warning tinos text-black text-center pt-2"><strong>Deluxe Diamond</strong></h2>
+          <p class="pt-serif-regular mt-2 p-2 text-justify">Decorados con tonos blancos, negros y levemente azules equipados con la mejor tecnología del mercado, contando con una variedad de pantallas y consolas para que pueda disfrutar al maximo de su estancia en NextGen</p>
         </div>
-        <div>
-          <button class="btn btn-outline-warning mt-4">Reservame</button>
+        <div class="col-5 d-flex justify-center">
+          <button class="btn btn-outline-warning m-5 col-8">Reservame</button>
         </div>
       </div>
     </section>
@@ -420,13 +394,13 @@
         <!-- The slideshow/carousel -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="Habitaciones/Deluxe_Platinum.png" alt="Los Angeles" class="d-block" style="width:100%">
+            <img src="imagenes/Habitaciones/15- Futuristic Suite Black (Habitación).jpg" alt="Los Angeles" class="d-block" style="width:100%">
           </div>
           <div class="carousel-item">
-            <img src="Habitaciones/Mix_Space.jpg" alt="Chicago" class="d-block" style="width:100%">
+            <img src="imagenes/Habitaciones/16- Futuristic Suite Black (Baño).jpg" alt="Chicago" class="d-block" style="width:100%">
           </div>
           <div class="carousel-item">
-            <img src="Habitaciones/Deluxe_Gold.jpg" alt="New York" class="d-block" style="width:100%">
+            <img src="imagenes/Habitaciones/17- Futuristic Suite Black (Sala Realidad Virtual).jpg" alt="New York" class="d-block" style="width:100%">
           </div>
         </div>
 
@@ -438,13 +412,13 @@
           <span class="carousel-control-next-icon"></span>
         </button>
       </div>
-      <div class="text-warning d-flex justify-content-around">
-        <div>
-          <h2>titulo</h2>
-          <p>eyo no me cambien mas cosas :,)</p>
+      <div class="text-warning d-flex justify-content-between p-2">
+        <div class="p-2 col-7 justify-center d-flex flex-column">
+          <h2 class="pb-3 bg-warning tinos text-black text-center pt-2"><strong>Futuristic Suite Black</strong></h2>
+          <p class="pt-serif-regular mt-2 p-2 text-justify">En estos inmensos 90 metros cuadrados de suite innovadora podrá disfrutar de una habitación totalmente equipada con una tecnología superior, nuestros baños son los más cómodos para relajarse y una habitación específicamente diseñada para disfrutar de nuestros servicios de realidad virtual. </p>
         </div>
-        <div>
-          <button class="btn btn-outline-warning mt-4">Reservame</button>
+        <div class="col-5 d-flex justify-center">
+          <button class="btn btn-outline-warning m-5 col-8">Reservame</button>
         </div>
       </div>
     </section>
@@ -462,13 +436,13 @@
         <!-- The slideshow/carousel -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="Habitaciones/Deluxe_Platinum.png" alt="Los Angeles" class="d-block" style="width:100%">
+            <img src="imagenes/Habitaciones/18- Futuristic Suite Diamond (Habitación).png" alt="Los Angeles" class="d-block" style="width:100%">
           </div>
           <div class="carousel-item">
-            <img src="Habitaciones/Mix_Space.jpg" alt="Chicago" class="d-block" style="width:100%">
+            <img src="imagenes/Habitaciones/19- Futuristic Suite Diamond (Baño)_.jpg" alt="Chicago" class="d-block" style="width:100%">
           </div>
           <div class="carousel-item">
-            <img src="Habitaciones/Deluxe_Gold.jpg" alt="New York" class="d-block" style="width:100%">
+            <img src="imagenes/Habitaciones/20- Futuristic Suite Diamond (Sala Realidad Virtual).jpg" alt="New York" class="d-block" style="width:100%">
           </div>
         </div>
 
@@ -480,13 +454,13 @@
           <span class="carousel-control-next-icon"></span>
         </button>
       </div>
-      <div class="text-warning d-flex justify-content-around">
-        <div>
-          <h2>titulo</h2>
-          <p>eyo no me cambien mas cosas :,)</p>
+      <div class="text-warning d-flex justify-content-between p-2">
+        <div class="p-2 col-7 justify-center d-flex flex-column">
+          <h2 class="pb-3 bg-warning tinos text-black text-center pt-2"><strong>Futuristic Suite Diamond</strong></h2>
+          <p class="pt-serif-regular mt-2 p-2 text-justify">Diseñada con colores negros y azules nuestra suite de última generación le permite experimentar la mayor comodidad y confort tecnologico gracias a sus habitaciones controladas mediante inmotica. Incluimos una sala para disfrutar de una experiencia de realidad virtual e inmersiva inigualable </p>
         </div>
-        <div>
-          <button class="btn btn-outline-warning mt-4">Reservame</button>
+        <div class="col-5 d-flex justify-center">
+          <button class="btn btn-outline-warning m-5 col-8">Reservame</button>
         </div>
       </div>
     </section>
@@ -504,13 +478,13 @@
         <!-- The slideshow/carousel -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="Habitaciones/Deluxe_Platinum.png" alt="Los Angeles" class="d-block" style="width:100%">
+            <img src="imagenes/Habitaciones/21- Futuristic Suite Platinum (Habitación).png" alt="Los Angeles" class="d-block" style="width:100%">
           </div>
           <div class="carousel-item">
-            <img src="Habitaciones/Mix_Space.jpg" alt="Chicago" class="d-block" style="width:100%">
+            <img src="imagenes/Habitaciones/22- Futuristic Suite Platinum (Baño).jpg" alt="Chicago" class="d-block" style="width:100%">
           </div>
           <div class="carousel-item">
-            <img src="Habitaciones/Deluxe_Gold.jpg" alt="New York" class="d-block" style="width:100%">
+            <img src="imagenes/Habitaciones/23- Futuristic Suite Platinum (Sala Realidad Virtual).jpg" alt="New York" class="d-block" style="width:100%">
           </div>
         </div>
 
@@ -522,13 +496,193 @@
           <span class="carousel-control-next-icon"></span>
         </button>
       </div>
-      <div class="text-warning d-flex justify-content-around">
-        <div>
-          <h2>titulo</h2>
-          <p>eyo no me cambien mas cosas :,)</p>
+      <div class="text-warning d-flex justify-content-between p-2">
+        <div class="p-2 col-7 justify-center d-flex flex-column">
+          <h2 class="pb-3 bg-warning tinos text-black text-center pt-2"><strong>Futuristic Suite Platinum</strong></h2>
+          <p class="pt-serif-regular mt-2 p-2 text-justify">El color plateado es nuestro protagonista en esta suite equipada con la mejor tecnología del mercado. Una habitación diseñada para ofrecerle el mejor descanso posible en este viaje al futuro, nada mejor que un baño inteligente para poder experimentar nuevas sensaciones y una sala preparada para actividades de realidad virtual son los ingredientes perfectos para esta suite. </p>
         </div>
-        <div>
-          <button class="btn btn-outline-warning mt-4">Reservame</button>
+        <div class="col-5 d-flex justify-center">
+          <button class="btn btn-outline-warning m-5 col-8">Reservame</button>
+        </div>
+      </div>
+    </section>
+    <section class="col-8 ms-max bg-black rounded-4 mb-5">
+      <!-- Carousel -->
+      <div id="demo10" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo10" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo10" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo10" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/Habitaciones/24- Futuristic Suite Gold (Habitación).png" alt="Los Angeles" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/Habitaciones/25- Futuristic Suite Gold (Baño).jpg" alt="Chicago" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/Habitaciones/26- Futuristic Suite Gold (Sala Realidad Virtual).jpg" alt="New York" class="d-block" style="width:100%">
+          </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo10" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo10" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+      <div class="text-warning d-flex justify-content-between p-2">
+        <div class="p-2 col-7 justify-center d-flex flex-column">
+          <h2 class="pb-3 bg-warning tinos text-black text-center pt-2"><strong>Futuristic Suite Gold</strong></h2>
+          <p class="pt-serif-regular mt-2 p-2 text-justify">Una experiencia VIP inigualable, esta suite de 96 metros está diseñada con una especial elegancia para ofrecerles el mayor lujo y comodidades posibles. Sus habitaciones están totalmente equipadas, un aseo privado para disfrutar de baño con burbujas relajantes y una sala equipada con la mayor tecnología del mercado para disfrutar de una experiencia de realidad inmersiva futurista.</p>
+        </div>
+        <div class="col-5 d-flex justify-center">
+          <button class="btn btn-outline-warning m-5 col-8">Reservame</button>
+        </div>
+      </div>
+    </section>
+    <section class="col-8 ms-max bg-black rounded-4 mb-5">
+      <!-- Carousel -->
+      <div id="demo11" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo11" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo11" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo11" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo11" data-bs-slide-to="3"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/Habitaciones/27- Futuristic Royalty Deluxe (Habitación).png" alt="Los Angeles" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/Habitaciones/28- Futuristic Royalty Deluxe (Salón y cocina).jpg" alt="Chicago" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/Habitaciones/29- Futuristic Royalty Deluxe (Sala de Realidad Virtual).jpg" alt="Chicago" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/Habitaciones/30- Futuristic Royalty Deluxe (Piscina Privada).jpg" alt="New York" class="d-block" style="width:100%">
+          </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo11" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo11" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+      <div class="text-warning d-flex justify-content-between p-2">
+        <div class="p-2 col-7 justify-center d-flex flex-column">
+          <h2 class="pb-3 bg-warning tinos text-black text-center pt-2"><strong>Futuristic Royalty Deluxe</strong></h2>
+          <p class="pt-serif-regular mt-2 p-2 text-justify">Mucho más que suite, le ofrecemos una experiencia futurista al completo. Una suite superior donde podrá descansar con el mayor confort que la tecnología puede ofrecerle, un baño privado totalmente equipado, un salón con cocina que cuenta con facilidades para realizar sus actividades, una piscina privada climatizada donde podrá disfrutar de un baño relajante y una sala de grandes dimensiones diseñadas para vivir una experiencia inmersiva futurista ¿A qué estás esperando?</p>
+        </div>
+        <div class="col-5 d-flex justify-center">
+          <button class="btn btn-outline-warning m-5 col-8">Reservame</button>
+        </div>
+      </div>
+    </section>
+    <section class="col-8 ms-max bg-black rounded-4 mb-5">
+      <!-- Carousel -->
+      <div id="demo12" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo12" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo12" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo12" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo12" data-bs-slide-to="3"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/Habitaciones/31- Space Deluxe (Habitación).png" alt="Los Angeles" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/Habitaciones/32- Space Deluxe (Salón y cocina).jpg" alt="Chicago" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/Habitaciones/33- Space Deluxe (Sala de Realidad Virtual).jpg" alt="New York" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/Habitaciones/34- Space Deluxe (Piscina Privada).jpg" alt="New York" class="d-block" style="width:100%">
+          </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo12" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo12" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+      <div class="text-warning d-flex justify-content-between p-2">
+        <div class="p-2 col-7 justify-center d-flex flex-column">
+          <h2 class="pb-3 bg-warning tinos text-black text-center pt-2"><strong>Space Deluxe</strong></h2>
+          <p class="pt-serif-regular mt-2 p-2 text-justify">Una suite superior de 205 metros cuadrados en nuestra nave espacial que te hará sentirte como en el espacio. Decorada con tonos azules y negros contiene una habitación con una cama king size e inmotica que te permite personalizarla a tu gusto, un baño privado con todas las comodidades, un salón con cocina totalmente equipado para su mayor confort, una sala con todo lo necesario para disfrutar de una realidad virtual superior y una piscina privada que cuenta con hidromasaje. </p>
+        </div>
+        <div class="col-5 d-flex justify-center">
+          <button class="btn btn-outline-warning m-5 col-8">Reservame</button>
+        </div>
+      </div>
+    </section>
+    <section class="col-8 ms-max bg-black rounded-4 mb-5">
+      <!-- Carousel -->
+      <div id="demo13" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo13" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo13" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo13" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo13" data-bs-slide-to="3"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/Habitaciones/35- Next Generation Experience (Habitación).jpg" alt="Los Angeles" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/Habitaciones/36- Next Generation Experience (Salón y cocina).jpg" alt="Chicago" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/Habitaciones/37- Next Generation Experience (Sala de Realidad Virtual).jpg" alt="New York" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/Habitaciones/38- Next Generation Experience (Piscina Privada).jpg" alt="New York" class="d-block" style="width:100%">
+          </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo13" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo13" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+      <div class="text-warning d-flex justify-content-between p-2">
+        <div class="p-2 col-7 justify-center d-flex flex-column">
+          <h2 class="pb-3 bg-warning tinos text-black text-center pt-2"><strong>Next Generation Experience</strong></h2>
+          <p class="pt-serif-regular mt-2 p-2 text-justify">La auténtica experiencia futurista de NextGen, nuestra suite exclusiva de 280 metros cuadrados decorada con los colores de nuestra marca, negro y dorado, cuenta con una habitación diseñada específicamente para su confort, un baño privado totalmente equipado, un salón con cocina de última generación, una sala preparada para disfrutar una experiencia de realidad inmersiva y virtual al máximo y una piscina con un ambiente futurista de lujo donde podrá disfrutar de hidromasajes contando con agua fría y caliente a su gusto ¡Viaja al futuro con nosotros!</p>
+        </div>
+        <div class="col-5 d-flex justify-center">
+          <button class="btn btn-outline-warning m-5 col-8">Reservame</button>
         </div>
       </div>
     </section>

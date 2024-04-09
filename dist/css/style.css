@@ -6,7 +6,7 @@
 
 body {
 
-  background-image: url("hotel.jpg");
+  background-image: url("../imagenes/hotel.jpg");
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
