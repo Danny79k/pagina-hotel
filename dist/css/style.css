@@ -100,4 +100,16 @@ body {
   
   * {font-size: 30;}
 }
+
+.dropdown-item:hover{
+
+background:rgb(27, 27, 27)
+}
+
+.dropdown-link:hover{
+
+  color:#e6c068;
+}
+
+
   
