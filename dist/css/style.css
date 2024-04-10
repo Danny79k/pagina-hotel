@@ -111,5 +111,30 @@ background:rgb(27, 27, 27)
   color:#e6c068;
 }
 
+.opacity{
+
+  opacity: 20%;
+  transition:
+  opacity 0.5s;
+}
+
+.opacity:hover{
+opacity: 100%;
+  
+}
+
+.rotate{
+
+  rotate:0;
+  transition: 
+  rotate 0.5s;
+  ;
+}
+
+.rotate:hover{
+
+  rotate: -90deg;
+}
+
 
   
